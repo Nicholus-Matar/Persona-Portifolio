@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body{
+  background-color: rgb(58, 61, 59);
+}
+
+ul li{
+  list-style: none;
+}
+
+#navbar{
+  background-color: pink;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  height: 100px;
+}
+
+#navbar-left,#navbar-right{
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+}
+
+#navbar-left .img-container>img{
+    width: 30px;
+}
+
+#navbar-left>*{
+  margin-right:50px;
+}
+
+#navbar-right>ul{
+  display: flex;
+  align-items: center;
+}
+
+#navbar-right .dropdown-start{
+  border: 1px solid red;
+  margin: 0 25px;
+  position: relative;
+}
+
+#navbar-right .dropdown-menu{
+  border: 1px solid green;
+  position:absolute;
+  top: 30px;
+  left: -30px;
+}
+
+.dropdown-start.start .dropdown-menu{
+  right: -500px;
+}
+
+.dropdown-start.start .flex-container{
+  display: flex;
+}
+
+.dropdown-start.start .flex-container>div{
+  flex-grow: 1;
+}
+
+.dropdown-start>span:hover{
+  color: black;
+}
+
+.hide{
+  display: none;
+}
+
+.show{
+  display: block;
+}
+
+#navbar-right ul li button{
+  border-radius: 10px;
+  padding:10px 20px;
+  margin-left: 25px;
+}
+
+#navbar-right ul li:last-child button{
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+}
+
+#navbar-right ul li:nth-child(5) button{
+  background-color: lighgray;
+  color: black;
+  border: 1px solid white;
+}
