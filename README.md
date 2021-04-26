@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Customizing your page
 
 ## Supporting Scrimba
@@ -14,3 +15,7 @@ in a while. So if you've ever wanted to "give back" to Scrimba, you can do that 
 	It would also mean the world to us if you share the courses.  
 
 Happy Coding!
+=======
+# Persona-Portifolio
+My own personal Portifolio
+>>>>>>> 97636c1baa49d219415d7e96db2a722326a88b15
