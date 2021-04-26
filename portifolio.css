@@ -5,7 +5,7 @@
 }
 
 :root {
-    --ff-primary: 'monospace', serif;
+    --ff-primary: 'Roboto', serif;
     --ff-secondary: 'Roboto Slab', serif;
     
     --fw-reg: 400;
@@ -13,12 +13,12 @@
     
     --clr-light: #FFFFFF;
     --clr-dark: #222523;
-    --clr-accent:#ee9e09de;
+    --clr-accent:#e49b15de;
     
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
     --fs-h3: 1.25rem;
-    --fs-body: 1rem;
+    --fs-body: 2.6rem;
     
     --bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25),
           0.125em 0.125em 0.25em rgba(0,0,0,.15);
@@ -34,8 +34,6 @@
 }
 
 /* General styles */
-
-/* endable this to add smooth scrolling */
  html {
     scroll-behavior: smooth;
 } 
@@ -341,6 +339,7 @@ header {
 .about-me {
     max-width: 1000px;
     margin: 0 auto;
+    font-weight: var(--fw-reg);
 }
 
 .about-me__img {
